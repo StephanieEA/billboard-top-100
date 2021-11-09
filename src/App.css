@@ -1,0 +1,74 @@
+main {
+  padding: 12px;
+}
+
+button {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input {
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header button,
+header form {
+  margin-top: 8px;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+
+form {
+  position: relative;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  padding: 12px 8px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 8px 12px;
+}
+
+th {
+  background-color: #121212;
+  color: white;
+}
+
+tr:hover {
+  background-color: #E0F9FF;
+}
+
+.App {
+  text-align: center;
+}
+
+.table_header {
+  margin-bottom: 12px;
+}
+
+.btn--end {
+  align-self: flex-end;
+}
+
+.btn--clear {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 70px;
+  color: #121212;
+}
